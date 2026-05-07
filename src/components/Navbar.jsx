@@ -1,6 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Home, Wrench, FileText, User, LayoutDashboard } from 'lucide-react';
-import logo from '../assets/logo.jpg';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -19,7 +18,7 @@ export default function Navbar() {
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
           <img 
-            src={logo}
+            src="/logo.png"
             alt="6th Sense Personal Logo" 
             style={{ height: '40px', width: 'auto' }} 
           />
